@@ -10,9 +10,11 @@ pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+.nestjs_repl_history.log
 
 # OS
 .DS_Store
+.env
 
 # Tests
 /coverage
