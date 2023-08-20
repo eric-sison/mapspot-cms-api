@@ -10,7 +10,7 @@
     "migration:check": "npx drizzle-kit check:pg",
     "migration:introspect": "npx drizzle-kit introspect:pg",
     "migration:push": "npx drizzle-kit push:pg",
-    "migration:generate": "npx drizzle-kit generate:pg --schema=./src/database/schema/*",
+    "migration:generate": "npx drizzle-kit generate:pg --out=./src/database/helpers/migrations --schema=./src/database/schema/*",
     "migration:apply": "ts-node src/database/scripts/migration",
     "migration:drop": "npx drizzle-kit drop",
     "studio": "npx drizzle-kit studio",
