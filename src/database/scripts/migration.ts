@@ -21,7 +21,7 @@ async function runMigration() {
   const db = drizzle(client);
 
   // Execute drizzle's migration command
-  await migrate(db, { migrationsFolder: './drizzle' });
+  await migrate(db, { migrationsFolder: './src/helpers/migrations' });
 
   // close the connection
   client.end();
