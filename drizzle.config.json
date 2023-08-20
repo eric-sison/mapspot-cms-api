@@ -1,6 +1,6 @@
 {
   "driver": "pg",
-  "out": "./drizzle",
+  "out": "./src/database/helpers/migrations",
   "schema": "./src/database/schema/*",
   "breakpoints": true,
   "verbose": true,
